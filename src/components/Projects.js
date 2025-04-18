@@ -1,6 +1,6 @@
 // Import Assets
-import uniswap from '../assets/uniswap.png';
-import compound from '../assets/compound.png';
+import proj from '../assets/proj.png';
+import vote from '../assets/vote.png';
 import aave from '../assets/aave.png';
 
 const Projects = () => {
@@ -11,11 +11,10 @@ const Projects = () => {
             <div className="projects__cards">
 
                 <div className="projects__card">
-                    <h3>Uniswap</h3>
-                    <img src={uniswap} alt="Uniswap Swap Page" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
+                    <h3>Blockchain Rental</h3>
+                    <img src={proj} alt="Blockchain rental Page" />
+                    <p>
+                     Blockchain Rental project for Nigerian Real Estate
                     </p>
 
                     <a href="https://uniswap.org/" target="_blank" className="button">Site</a>
@@ -23,11 +22,10 @@ const Projects = () => {
                 </div>
 
                 <div className="projects__card">
-                    <h3>Compound</h3>
-                    <img src={compound} alt="Compound Landing Page" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
+                    <h3>Blockchain Voting</h3>
+                    <img src={vote} alt="voting Page" />
+                    <p>
+                        An outstanding User Interface and smart contract was developed for an online Voting system
                     </p>
 
                     <a href="https://compound.finance/" target="_blank" className="button">Site</a>
